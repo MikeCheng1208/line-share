@@ -47,3 +47,7 @@ document.getElementById("Line_mobile_Btn").onclick = function(){
 }
 ```
 
+----
+
+這樣可以不用載入官方的lib就可以直接分享line，還可以自訂line分享按鈕的圖片，如果直接使用官方的做法是不行的!
+
