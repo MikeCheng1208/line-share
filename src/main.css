@@ -25,9 +25,9 @@ a.shareBtn{
     margin-top: -40px;
     background-repeat: no-repeat;
 }
-.pc{
+a.pc{
     background-image: url("./images/linebutton_gress.png");
 }
-.mobiles{
+a.mobile{
     background-image: url("./images/linebutton_blue.png");
 }
