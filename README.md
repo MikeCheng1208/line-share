@@ -1,6 +1,6 @@
 # LINE分享
 
-Damo
+Demo
 * https://a3804430.github.io/LineShare_Example/src/
 
 ----
