@@ -1,0 +1,32 @@
+*{
+    padding:0;
+    margin:0;
+}
+div.box{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #ccc;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+a.shareBtn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    text-indent: -9999px;
+    width: 80px;
+    height: 80px;
+    background-size: 100% 100%;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+.pc{
+    background-image: url("./images/linebutton_gress.png");
+}
+.mobile{
+    background-image: url("./images/linebutton_blue.png");
+}
