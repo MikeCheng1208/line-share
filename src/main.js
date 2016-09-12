@@ -1,8 +1,8 @@
 window.onload = function(){
     //用device.js判斷桌機還是手機來藏按鈕
-	if(device.desktop()){
+    if(device.desktop()){
         document.getElementById("Linemobile").style.display="none";
-	}else{
+    }else{
         document.getElementById("LinePc").style.display="none";
     }
 	
