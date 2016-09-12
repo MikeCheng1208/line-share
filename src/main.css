@@ -13,7 +13,7 @@ div.box{
     margin-top: -100px;
 }
 a.shareBtn{
-    display: none;
+    display: block;
     position: absolute;
     top: 50%;
     left: 50%;
