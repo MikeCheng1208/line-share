@@ -29,7 +29,7 @@ Line文件
 "https://lineit.line.me/share/ui?url="+ encodeURIComponent("分享的網址")
 
 //手機
-"http://line.me/R/msg/text/"+ encodeURIComponent("分享的網址")
+"line://msg/text/"+ encodeURIComponent("分享的網址")
 ```
 
 
@@ -43,7 +43,7 @@ document.getElementById("Line_Pc_Btn").onclick = function(){
 }
 //手機
 document.getElementById("Line_mobile_Btn").onclick = function(){
-    window.open('http://line.me/R/msg/text/'+ encodeURIComponent("https://a3804430.github.io/LineShare_Example/src/"),"_blank","toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes,width=600,height=400")
+    window.open('line://msg/text/'+ encodeURIComponent("https://a3804430.github.io/LineShare_Example/src/"),"_blank","toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes,width=600,height=400")
 }
 ```
 
