@@ -1,7 +1,7 @@
 # LINE分享
 
 Demo
-* https://a3804430.github.io/LineShare_Example/src/
+* https://mikecheng1208.github.io/LineShare_Example/src/
 
 ----
 
@@ -39,11 +39,11 @@ Line文件
 ```javascript
 //桌機
 document.getElementById("Line_Pc_Btn").onclick = function(){
-    window.open('https://lineit.line.me/share/ui?url='+encodeURIComponent("https://a3804430.github.io/LineShare_Example/src/"),"_blank","toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes,width=600,height=400")
+    window.open('https://lineit.line.me/share/ui?url='+encodeURIComponent("https://mikecheng1208.github.io/LineShare_Example/src/"),"_blank","toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes,width=600,height=400")
 }
 //手機
 document.getElementById("Line_mobile_Btn").onclick = function(){
-    window.open('line://msg/text/'+ encodeURIComponent("https://a3804430.github.io/LineShare_Example/src/"),"_blank","toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes,width=600,height=400")
+    window.open('line://msg/text/'+ encodeURIComponent("https://mikecheng1208.github.io/LineShare_Example/src/"),"_blank","toolbar=yes,location=yes,directories=no,status=no, menubar=yes,scrollbars=yes,resizable=no, copyhistory=yes,width=600,height=400")
 }
 ```
 
