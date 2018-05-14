@@ -14,8 +14,8 @@ npm install line-share
 ```
 And then import it:
 ```javascript
-const LineShare = require('line-share');
-
+const lineShare = require('line-share');
+const line = new lineShare();
 /* fill in share url */
-LineShare("https://github.com/MikeCheng1208/");
+line.share("https://github.com/MikeCheng1208/");
 ```
