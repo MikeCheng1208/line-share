@@ -10,12 +10,13 @@ meta
 
 ## Installation
 ```
-npm install line-share
+npm install line-share -D
 ```
 And then import it:
 ```javascript
-const lineShare = require('line-share');
+import lineShare from "line-share";
 const line = new lineShare();
+
 /* fill in share url */
 line.share("https://github.com/MikeCheng1208/");
 ```
