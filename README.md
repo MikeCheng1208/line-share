@@ -11,7 +11,7 @@ NPM:  https://www.npmjs.com/package/line-share
 
 ## Installation
 ```
-npm install line-share -D
+npm install line-share -S
 ```
 And then import it:
 ```javascript
